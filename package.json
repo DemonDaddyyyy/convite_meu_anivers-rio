@@ -1,0 +1,25 @@
+{
+  "name": "convite_meu_anivers-rio",
+  "version": "1.0.0",
+  "description": "Comandos pra dar nos pcs que editarem o código:\r npm init --yes\r npm install --save-dev parcel",
+  "scripts": {
+    "dev": "parcel src/index.html src/styles/main.scss src/scripts/main.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DemonDaddyyyy/convite_meu_anivers-rio.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/DemonDaddyyyy/convite_meu_anivers-rio/issues"
+  },
+  "homepage": "https://github.com/DemonDaddyyyy/convite_meu_anivers-rio#readme",
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.16.4",
+    "parcel": "^2.16.4"
+  }
+}
