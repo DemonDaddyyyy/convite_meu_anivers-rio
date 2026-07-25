@@ -2,6 +2,7 @@
 @use 'components/infos_bar';
 @use 'components/buttons';
 @use 'event';
+@use 'variables';
 
 
 * {
@@ -9,7 +10,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: BebasNeue, sans-serif; 
-    color: rgb(190, 242, 243); //cor da letra
+    color: variables.$textColor; 
     list-style: none;
 }
 
