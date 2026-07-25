@@ -1,0 +1,44 @@
+@use 'hero';
+@use 'components/infos_bar';
+@use 'components/buttons';
+@use 'event';
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: BebasNeue, sans-serif; 
+    color: rgb(190, 242, 243); //cor da letra
+    list-style: none;
+}
+
+@font-face {
+    font-family: 'Ethnocentric';
+    src: url('../fonts/Ethnocentric-Regular.otf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'BebasNeue';
+    src: url('../fonts/BebasNeue-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+
+.container {
+    max-width: 960px;
+    width: 100%;
+    margin: 0 auto;
+
+    @media (max-width: 640px) {
+        max-width: 80%;
+    }
+
+    @media (max-width: 1024px) {
+        max-width: 90%;
+    }
+}

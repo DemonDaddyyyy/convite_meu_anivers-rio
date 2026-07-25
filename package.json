@@ -20,6 +20,7 @@
   "homepage": "https://github.com/DemonDaddyyyy/convite_meu_anivers-rio#readme",
   "devDependencies": {
     "@parcel/transformer-sass": "^2.16.4",
-    "parcel": "^2.16.4"
+    "parcel": "^2.16.4",
+    "sharp": "^0.33.5"
   }
 }

@@ -27,7 +27,7 @@ QUICK GIT SETTINGS FOR EASY PC'S CHANGE:
 
 git init
 git add .
-git commit -m "commit inicial"
+git commit -m "Setup do projeto"
 git remote add origin https://github.com/DemonDaddyyyy/convite_meu_anivers-rio.git
 git branch -M main
 git push -u origin main
