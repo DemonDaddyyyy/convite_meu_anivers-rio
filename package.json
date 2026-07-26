@@ -1,7 +1,7 @@
 {
   "name": "convite_meu_anivers-rio",
   "version": "1.0.0",
-  "description": "Comandos pra dar nos pcs que editarem o código:\r npm init --yes\r npm install --save-dev parcel",
+  "description": "ITS MY BIRTHDAY",
   "scripts": {
     "dev": "parcel src/index.html src/styles/main.scss src/scripts/main.js",
     "test": "echo \"Error: no test specified\" && exit 1"
